@@ -15,7 +15,12 @@ body{
 a{
     text-decoration: none;
 }
-
+.unique-properties{
+    display: none;
+}
+.our-work{
+    display: none;
+}
 .logo{
     font-family: "Raleway";
     font-weight: 700;
@@ -76,6 +81,7 @@ a{
     font-family: "Roboto", sans-serif;
     cursor: pointer;
 }
+
 .portfolio-main-list{
     list-style: none;   
 }
@@ -108,9 +114,7 @@ a{
     color: var(--text-color);
 }
 
-.unique-properties{
-    display: none;
-}
+
 .main-list{
     list-style: none;
 }
@@ -165,6 +169,7 @@ footer{
 }
 .footer-list{
     list-style: none;
+    font-style: normal;
 }
 .footer-address{
     color: var(--primary-title-color);
